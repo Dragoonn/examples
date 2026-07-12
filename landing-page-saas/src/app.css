@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/themes/rose';
+
+/* Pozwól Tailwindowi skanować klasy z komponentów Skeleton */
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
